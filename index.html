@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Compara Preços</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<main class="container">
+    <h1>Dev Compara Preços</h1>
+    <form action="get" class="search-form">
+        <input type="text" placeholder="Digite o nome do produto" class="product-input">
+        <button type="submit">Buscar</button>
+    </form>
+</main>
+<div class="product-list"></div>
+<canvas class="price-chart" width="400" height="200"></canvas> 
+<script src="script.js"></script>
+</body>
+</html>
